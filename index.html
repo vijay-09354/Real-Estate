@@ -61,7 +61,8 @@
       <div class="flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center">
-          <img src="https://placehold.co/150x50" alt="Logo" class="h-8">
+          <!-- <img src="https://placehold.co/150x50" alt="Logo" class="h-8"> -->
+          <h1 class="text-xl font-bold">Real Estate</h1>
         </div>
         <!-- Menu Items -->
         <div class="hidden md:flex space-x-10">
@@ -92,20 +93,20 @@
         <p class="text-xl mb-8">Discover the perfect property for sale or rent with our expert team.</p>
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-            <select class="p-2 border rounded-md">
-              <option>Property Type</option>
-              <option>House</option>
-              <option>Apartment</option>
+            <select class="p-2 border rounded-md text-gray-700">
+              <option value="" disabled selected hidden>Property Type</option>
+              <option value="house">House</option>
+              <option value="apartment">Apartment</option>
             </select>
-            <select class="p-2 border rounded-md">
-              <option>Location</option>
-              <option>New York</option>
-              <option>Los Angeles</option>
+            <select class="p-2 border rounded-md text-gray-700">
+              <option value="" disabled selected hidden>Location</option>
+              <option value="new-york">New York</option>
+              <option value="los-angeles">Los Angeles</option>
             </select>
-            <select class="p-2 border rounded-md">
-              <option>Price Range</option>
-              <option>$100,000 - $300,000</option>
-              <option>$300,000 - $500,000</option>
+            <select class="p-2 border rounded-md text-gray-700">
+              <option value="" disabled selected hidden>Price Range</option>
+              <option value="100000-300000">$100,000 - $300,000</option>
+              <option value="300000-500000">$300,000 - $500,000</option>
             </select>
             <button class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">Search</button>
           </div>
